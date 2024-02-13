@@ -337,7 +337,7 @@ See CALL-IN-MIXING-CONTEXT")
     "Function called within the server's render thread.
 
 This function should control the rendering of the audio server. To do
-so, it must repeatedly call MIXDE:MIX on the server and process any
+so, it must repeatedly call MIXED:MIX on the server and process any
 tasks that may appear on the server's processing queue.
 
 When this function returns, the server's segment must shut down and
